@@ -15,7 +15,7 @@ export default function Login() {
         className="flex-1 bg-transparent text-sm outline-none text-zinc-950 placeholder:text-zinc-800 p-2 border-zinc-950 border-2 rounded-xl hover:bg-zinc-200 transition duration-300"
         required
       />
-      <button className="flex-1 bg-transparent text-sm outline-none text-zinc-950 bg-green-600 p-2 rounded-xl font-bold hover:bg-green-700 transition duration-300">
+      <button className="flex-1 text-sm outline-none text-zinc-950 bg-green-600 p-2 rounded-xl font-bold hover:bg-green-700 transition duration-300">
         Enter
       </button>
     </form>
