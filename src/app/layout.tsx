@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html className={inter.variable} lang="en">
-      {children}
+      <body className="bg-zinc-50 flex flex-col antialiased">{children}</body>
     </html>
   )
 }

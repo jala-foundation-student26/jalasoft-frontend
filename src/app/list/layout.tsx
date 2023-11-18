@@ -3,5 +3,5 @@ export default function ListLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <body>{children}</body>
+  return <main>{children}</main>
 }
