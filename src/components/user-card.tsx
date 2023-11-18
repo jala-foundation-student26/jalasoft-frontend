@@ -2,7 +2,6 @@ import Image from 'next/image'
 import { Trash, PencilSimple } from '@phosphor-icons/react/dist/ssr'
 
 interface UserCardProps {
-  id: number
   email: string
   firstName: string
   lastName: string
@@ -10,7 +9,6 @@ interface UserCardProps {
 }
 
 export default function UserCard({
-  id,
   email,
   firstName,
   lastName,
