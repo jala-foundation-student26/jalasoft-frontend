@@ -21,7 +21,7 @@ async function getUsers(): Promise<User[]> {
 export default async function List() {
   const users = await getUsers()
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 px-4 py-8 sm:px-8 gap-12">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 px-4 py-8 sm:px-8 gap-4 xl:gap-12">
       {users.map((user) => {
         return (
           <UserCard
