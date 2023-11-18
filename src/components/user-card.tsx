@@ -3,7 +3,7 @@ import { Trash, PencilSimple } from '@phosphor-icons/react/dist/ssr'
 
 export default function UserCard() {
   return (
-    <div className="flex gap-8 border-2 rounded-md border-zinc-950 p-4 w-full">
+    <div className="flex w-full gap-4 p-4 border-2 rounded-md border-zinc-950">
       <Image
         src="/windowsxp-bg.jpg"
         width={128}
