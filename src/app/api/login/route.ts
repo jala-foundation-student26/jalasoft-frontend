@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { cookies } from 'next/headers'
 
 export async function POST(request: NextRequest) {
   const data: {
@@ -18,6 +19,8 @@ export async function POST(request: NextRequest) {
     },
     cache: 'no-cache',
   })
+
+  cookies().set('email', data.email)
 
   return response
 }
