@@ -37,7 +37,6 @@ export default function Login() {
         cache: 'no-cache',
       })
         .then((response) => {
-          console.log(response)
           if (response.status === 200) router.push('/list')
           else setErrorMessage('Wrong credentials')
           resolve()
